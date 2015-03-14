@@ -1,5 +1,6 @@
 ".container": {
-	backgroundColor:"white"
+	backgroundColor:"white",
+		backgroundImage: "/valero-logo.png"
 }
 
 "Label": {
@@ -9,7 +10,14 @@
 }
 
 "#label": {
+	width: Titanium.UI.FILL,
+	height: '150px',
+	backgroundColor: "#006699",
+
+	color: 'white',
 	font: {
-		fontSize: 12
+		fontSize: 20,
+		fontFamily: 'Helvetica',
+		fontWeight: 'bold',
 	}
 }
